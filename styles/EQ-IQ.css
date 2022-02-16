@@ -1,28 +1,8 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
-.pic {
-    width: 300px;
-  }
+#box {
 
- 
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-    width: 100px;
-    margin-left: 50px;
-  }
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-    
-  }
-  
-  #box {
-  
     border-radius: 25px;
     background-color: #FFFFF7;
     height: 600px;
@@ -35,70 +15,60 @@
   margin-top: 110px;
   transition: box-shadow .3s;
   
-     
   }
   
-    
-    
   
   #box:hover {
   
-    box-shadow: 0px 5px 25px 0px wheat;
+  box-shadow: 0px 5px 25px 0px wheat;
+  
+  } 
+    
+  
+  
+  #back{
+  float: left;
+  font-family: 'Fira Code', monospace;
+  margin-left: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: x-large;
+  color: black;
+  transition: color .3s;
+  }
+  
+  #back:hover {
+  
+  color:  wheat;
   
   }
   
-  #thumb {
-      width: 10%;
-      text-align: left;
-      margin-left: 140px;
   
-  
-  }
-  
-  .identity {
-      font-family: 'Fira Code', monospace;
-      color: black;
-      font-weight: bold;
-      
-      font-size: medium;
-      transition: color .3s;
-  
+  #next{
+  float: right;
+  font-family: 'Fira Code', monospace;
+  margin-right: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: x-large;
+  color: black;
+  transition: color .3s;
   
   }
   
-  .identity:hover {
+  #next:hover {
   
   color: wheat;
   
   }
   
-  
-  
-  
-  #css{
-      width: 10%;
-      text-align: left;
-      margin-left: 140px;
-      display: inline-block;
-  
-  
-  }
-  
-  .id-css {
-      font-family: 'Fira Code', monospace;
-      color: black;
-      font-weight: bold;
+  .hr {
+      background-color: black;
       
-      font-size: medium;
-      transition: color .3s;
-      
-      
+    
+    
   
-  }
   
-  .id-css:hover {
-  
-  color: wheat;
   
   }
   
@@ -118,28 +88,6 @@
   
   }
   
-  #h {
-   font-family: 'Fira Code', monospace;
-   font-weight: bold;
-   color: black;
-   font-size: x-large;
-  
-  
-  
-  }
-  
-  
-  #h2 {
-   font-family: 'Fira Code', monospace;
-   color: black;
-  
-  
-  
-  }
-  
-  
-  
-  
   .title {
   font-family: 'Fira Code', monospace;
   text-align: center;
@@ -157,12 +105,26 @@
   
   .text-align {
   text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
   
   
   }
   
+  .mbti{
+  
+      border-radius: 25px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 0px 5px 25px 0px 
+              rgba(0,0,0,.25);
   
   
+  
+  
+  }
   
   
   
@@ -445,3 +407,4 @@
       font-size: 8vh;
     }
   }
+  
