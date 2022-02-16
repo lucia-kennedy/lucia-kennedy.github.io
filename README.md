@@ -1,1 +1,0 @@
-# lucia-kennedy.github.io
