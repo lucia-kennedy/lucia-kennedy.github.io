@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
 .pic {
     width: 300px;
   }
@@ -53,7 +55,7 @@
   }
   
   .identity {
-      font-family: fira code;
+      font-family: 'Fira Code', monospace;
       color: black;
       font-weight: bold;
       
@@ -82,7 +84,7 @@
   }
   
   .id-css {
-      font-family: fira code;
+      font-family: 'Fira Code', monospace;
       color: black;
       font-weight: bold;
       
@@ -116,7 +118,7 @@
   }
   
   #h {
-   font-family: fira code;
+   font-family: 'Fira Code', monospace;
    font-weight: bold;
    color: black;
    font-size: x-large;
@@ -127,7 +129,7 @@
   
   
   #h2 {
-   font-family: fira code;
+   font-family: 'Fira Code', monospace;
    color: black;
   
   
@@ -138,13 +140,13 @@
   
   
   .title {
-  font-family: fira code;
+  font-family: 'Fira Code', monospace;
   text-align: center;
   
   }
   
   .paragraph {
-  font-family: fira code;
+  font-family: 'Fira Code', monospace;
   text-align: center;
   font-size: large;
   color: black;

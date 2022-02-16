@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 #box {
 
@@ -46,7 +47,7 @@
   
   #next{
   float: right;
-  font-family: fira code;
+  font-family: 'Fira Code', monospace;
   margin-right: 20px;
   font-weight: bold;
   margin-top: 5px;
@@ -80,13 +81,13 @@
   }
   
   .title {
-  font-family: fira code;
+  font-family: 'Fira Code', monospace;
   text-align: center;
   
   }
   
   .paragraph {
-  font-family: fira code;
+  font-family: 'Fira Code', monospace;
   text-align: center;
   font-size: large;
   color: black;

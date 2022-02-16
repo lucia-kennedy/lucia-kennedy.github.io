@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
 #background
 { 
     position:fixed; 
@@ -34,7 +36,7 @@
 
 .title {
   text-align: center;
-  font-family: fira code;
+  font-family: 'Fira Code', monospace;
   font-weight: bold;
   color: black;
 
@@ -58,7 +60,7 @@
 
 .article {
   color: #000;
-  font-family: fira code;
+  font-family: 'Fira Code', monospace;
   
   font-size: medium;
   margin-top: 20px; 
