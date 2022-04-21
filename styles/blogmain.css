@@ -29,16 +29,11 @@
     width: 1000px;
     box-shadow: 0px 5px 25px 0px 
               rgba(0,0,0,.25);
-              padding-top: 30px;
-              padding-bottom: 30px;
-              padding-left: 10px;
-              padding-right: 10px;
-              position: relative;
-              top: 18%;
-              left: 22%;
-              text-align: center;
+     margin-left: 220px;
+     margin-left: auto;
+  margin-right: auto;
+  margin-top: 110px;
   transition: box-shadow .3s;
-  
   
      
   }
@@ -451,12 +446,19 @@
     }
   }
 
-  @media only screen and (min-width: 375px) and (max-width: 812px) {
-    #box{    
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-
+  @media only screen and (max-width: 320px) {
+    #box {
+      
+    height: 400px;
+    width: 320px;
+    
+     
+     margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  
+     }
+   
   }
 
  
