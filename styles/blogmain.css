@@ -445,3 +445,12 @@
       font-size: 8vh;
     }
   }
+
+  @media screen and (max-width: 320px) {
+    #box{
+      width: 30px;
+
+
+    }
+  }
+  
